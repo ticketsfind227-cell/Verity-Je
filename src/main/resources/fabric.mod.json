@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "verityje",
+  "version": "${version}",
+  "name": "Verity JE",
+  "description": "在 Minecraft Java Edition 中通过命令与 DeepSeek 对话。",
+  "authors": ["Verity JE"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.verityje.VerityJeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

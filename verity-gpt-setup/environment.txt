@@ -1,0 +1,52 @@
+Verity GPT Setup - Phase 1 Environment Detection
+Generated: 2026-08-23 (Asia/Ho_Chi_Minh)
+
+Platform note
+-------------
+The supplied runbook targets Windows. This computer is macOS, so Windows paths
+and PowerShell checks are mapped to their macOS equivalents.
+
+Operating system
+----------------
+Product: macOS
+Version: 26.5.1
+Build: 25F80
+Kernel: Darwin 25.5.0
+Architecture: arm64 (Apple Silicon)
+
+Java
+----
+Installed JDK: OpenJDK 21.0.12.1 (Homebrew)
+Java home: /opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home
+Executable tested: /opt/homebrew/opt/openjdk@21/bin/java
+System wrapper: /usr/bin/java
+
+Codex CLI
+---------
+Installed: YES
+Version: codex-cli 0.142.4
+Executables found:
+- /opt/homebrew/bin/codex
+- /Applications/ChatGPT.app/Contents/Resources/codex
+Authentication state was not inspected in Phase 1 to avoid exposing tokens.
+
+Minecraft
+---------
+Minecraft Launcher detected: NO
+PCL/HMCL/Prism/MultiMC detected: NO
+Existing standard macOS game directory: NO
+Checked: /Users/aaron/Library/Application Support/minecraft
+Checked Windows-style fallback: /Users/aaron/.minecraft
+Existing worlds/user data detected: NO standard game directory exists
+
+Disk
+----
+Volume: /dev/disk3s1s1
+Total: 926 GiB
+Used: 16 GiB
+Available: 609 GiB
+
+Phase 1 result
+--------------
+PASS. Environment detected. Phase 2 requires installation of the official
+Minecraft Launcher and a manual Microsoft/Minecraft account login.
